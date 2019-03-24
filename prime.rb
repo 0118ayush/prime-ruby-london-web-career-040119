@@ -13,5 +13,3 @@ def prime?(x)
     false 
   end
 end
-    
-end
