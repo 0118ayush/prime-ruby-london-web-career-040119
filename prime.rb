@@ -4,7 +4,7 @@
 
 def prime?(x)
   if x == 0 || x == 1 || x == 2
-    true 
+    false
   else 
     divisor = (2..x-1).to_a
   
