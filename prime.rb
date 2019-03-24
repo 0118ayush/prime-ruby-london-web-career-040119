@@ -10,5 +10,6 @@ def prime?(x)
     if x == 2
       true
     elsif x % n == 0
+      true
   end
 end
