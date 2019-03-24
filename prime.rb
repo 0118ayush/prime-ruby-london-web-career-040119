@@ -8,8 +8,8 @@ def prime?(x)
   
   divisor.each do |n|
     if x % n == 0 
-    true 
+    false
   else 
-    false 
+    true 
   end
 end
