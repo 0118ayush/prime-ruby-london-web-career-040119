@@ -11,5 +11,6 @@ def prime?(x)
       true
     elsif x % n == 0
       true
+    end
   end
 end
