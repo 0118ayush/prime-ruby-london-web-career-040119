@@ -4,7 +4,7 @@
 
 def prime?(x)
   
-    divisor = (3..x-1).to_a
+    divisor = (2..x-1).to_a
   
   divisor.any? do |n|
       x % n == 0
