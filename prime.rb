@@ -9,7 +9,8 @@ def prime?(x)
   divisor.any? do |n|
     if n == 2
       true
-    else x % n == 0
+    else 
+      x % n == 0
     end
   end
 end
