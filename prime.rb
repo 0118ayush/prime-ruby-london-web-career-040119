@@ -1,6 +1,6 @@
 # Add  code here!
 
-array = []
+numbers = []
 
 def prime?(numbers)
   numbers.each do |x| 
