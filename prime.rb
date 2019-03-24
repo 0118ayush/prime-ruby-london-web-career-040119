@@ -9,5 +9,3 @@ def prime?(x)
   divisor.any? |n| 
     x % n == 0
   end
-  
-end
