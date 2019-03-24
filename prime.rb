@@ -3,7 +3,7 @@
 
 
 def prime?(x)
-  
+  if x 
     divisor = (2..x-1).to_a
   
   divisor.any? do |n|
