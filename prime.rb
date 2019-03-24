@@ -12,4 +12,3 @@ def prime?(x)
     x % n == 0
   end
   end
-end
