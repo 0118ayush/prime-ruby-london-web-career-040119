@@ -1,6 +1,5 @@
 # Add  code here!
 
-numbers = []
 
 
 def prime?(numbers)
