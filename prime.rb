@@ -8,3 +8,4 @@ def prime?(x)
   
   divisor.each do |n|
   
+end 
