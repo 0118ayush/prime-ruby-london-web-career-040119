@@ -9,3 +9,4 @@ def prime?(x)
   divisor.any? do |n|
     x % n == 0
   end
+end
