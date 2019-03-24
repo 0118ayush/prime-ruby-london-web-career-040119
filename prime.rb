@@ -4,7 +4,7 @@
 
 def prime?(x)
   
-  divisors = new.Array(2..x-1)
+  divisors = Array.new(2..x-1)
   divisor.each do |n|
     if x % n == 0
       true
