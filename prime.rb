@@ -5,7 +5,7 @@
 def prime?(x)
   
   if x == 2 
-    f 
+    return true 
   else 
     divisor = (2..x-1).to_a
   
