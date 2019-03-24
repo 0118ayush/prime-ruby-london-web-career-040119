@@ -6,7 +6,7 @@ def prime?(x)
   
   divisor = (2..x-1).to_a
   
-  else if divisor.any? do |n|
+  divisor.any? do |n|
     if x == 2
       true
     elsif x % n == 0
