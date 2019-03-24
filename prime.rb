@@ -3,7 +3,7 @@
 
 
 def prime?(x)
-  if x < 0 || x == 0 || x == 1
+  if x < 0 || x == 0 || x == 1 || x == 2
     false 
   else 
     divisor = (2..x-1).to_a
