@@ -4,7 +4,7 @@
 
 def prime?(x)
   
-  divisors = Array.new((2..x-1))
+  divisors = (2..x-1).to_a
   
   divisor.any? |n| 
     x % n == 0
